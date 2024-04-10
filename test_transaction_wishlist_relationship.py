@@ -12,7 +12,7 @@ class TestTransactionWishlistRelationship(unittest.TestCase):
         
         store.add_customer("Christine Barlaan")
         
-        store.add_book_to_wishlist("Jane Eyre", 18.99)
+        store.add_book_to_wishlist("Jane Eyre", 18.99, "christine")
         
         result = store.calculateTransaction("Christine Barlaan")
         
